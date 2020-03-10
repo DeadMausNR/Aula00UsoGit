@@ -9,4 +9,12 @@ public class Aluno {
     public void setId(int id) {
         this.id = id;
     }
+	
+    public String getNome(){
+        return nome;
+    }
+	
+    public int getId(){
+        return id;
+    }
 }
