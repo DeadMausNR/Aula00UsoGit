@@ -1,7 +1,12 @@
 public class Aluno {
     private String nome;
     private int id;
-
+	
+    public Aluno(int id, String nome){
+        this.nome = nome;
+        this.id = id;
+    }
+	
     public void setNome(String nome) {
         this.nome = nome;
     }
